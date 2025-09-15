@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(78, 74, 74);
+    text-align: center;
+}
+
+h1{
+    color: rgba(16, 219, 26, 0.916);
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.contaner{
+    height: 75vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    background-color: blueviolet;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.box{
+    background-color: white;
+    color: black;
+    height: 18vmin;
+    width: 18vmin;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.re-start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new{
+    background-color: rgb(60, 161, 60);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-weight: 600;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.ree{
+    background-color:red;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-weight: 600;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.hidden{
+    display:none;
+}
+
+#massage{
+    color: rgba(16, 219, 26, 0.916);
+    margin: 200px 0px 200px 0px;
+    font-size: 50px;
+}
